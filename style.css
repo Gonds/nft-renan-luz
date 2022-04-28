@@ -266,20 +266,6 @@ p {
     color: white;
 }
 
-#projects .project-img {
-    flex-basis: 50%;
-    height: 300px;
-    overflow: hidden;
-    position: relative;
-}
-
-#projects .project-img img {
-    transition: .3s ease transform;
-}
-
-#projects .project-item:hover .project-img img {
-    transform: scale(1.1);
-}
 /* End Projects section */
 
 /* About section */
