@@ -157,9 +157,14 @@ p {
 #services .services {
     flex-direction: column;
     text-align: center;
-    max-width: 700px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
+}
+
+#services .service-top {
+    width: 500px;
+    max-width: 0 auto;
 }
 
 #services .service-bottom {
@@ -194,7 +199,7 @@ p {
     height: 100%;
     width: 100%;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: .8;
+    opacity: .9;
     z-index: -1;
 }
 
@@ -464,7 +469,18 @@ p {
 /* End Keyframes */
 
 /*Media Query for tablet*/
-@media only screen and (min-width:768px){
+@media only screen and (max-width:768px) {
+    #hero {
+        background-image: url(./img/hero-bg1.png);
+        background-size: cover;
+        background-position: top right;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+
+@media only screen and (min-width:768px){    
     .cta {
         font-size: 2.5rem;
         padding: 20px 60px ;
