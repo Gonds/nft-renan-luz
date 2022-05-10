@@ -51,7 +51,7 @@ p {
 }
 
 .section-title span {
-    color: #1868B7;
+    color: #F7CE3E;
 }
 
 .cta {
@@ -59,7 +59,7 @@ p {
     padding: 10px 30px;
     color: white;
     background-color: transparent;
-    border: 2px solid #1868B7;
+    border: 2px solid #F7CE3E;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -70,7 +70,7 @@ p {
 
 .cta:hover {
     color: white;
-    background-color: #1868B7;
+    background-color: #F7CE3E;
 
 }
 
@@ -81,7 +81,7 @@ p {
 }
 
 .brand h1 span {
-    color: #3979b9;
+    color: #F7CE3E;
 }
 
 /*Header section*/
@@ -96,7 +96,7 @@ p {
 
 #header .header {
     min-height: 8vh;
-    background-color: rgba(31, 30, 30, 0.24);
+    background-color: rgba(black, 0.24);
     transition: .3s ease background-color;
 }
 
@@ -113,7 +113,7 @@ p {
 #header .nav-list ul {
     list-style: none;
     position: absolute;
-    background-color: rgb(31, 30, 30);
+    background-color: rgb(black);
     width: 100vw;
     height: 100vh;
     left: 100%;
@@ -148,7 +148,7 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    color: rgba(240, 248, 255, 0.021);
+    color: rgba(black, 0.021);
     font-size: 10rem;
     letter-spacing: 50px;
     z-index: -1;
@@ -161,7 +161,7 @@ p {
 }
 
 #header .nav-list ul li:hover a {
-    color: #1868B7;
+    color: #F7CE3E;
 }
 
 #header .hamburger {
@@ -273,7 +273,7 @@ p {
     left: 0;
     height: 100%;
     width: 0;
-    background-color: #1868B7;
+    background-color: #F7CE3E;
     animation: text_reveal_box 1s ease;
     animation-delay: .3s;
 }
@@ -475,7 +475,7 @@ p {
     top: 19px;
     height: 98%;
     width: 98%;
-    border: 7px solid #1868B7;
+    border: 7px solid #F7CE3E7;
     z-index: -1;
 }
 /* End About section */
@@ -598,7 +598,7 @@ p {
 
 @keyframes text_reveal_name {
     100% {
-        color: #1868B7;
+        color: #F7CE3E;
         font-weight: 500px;
     }
 }
@@ -607,7 +607,6 @@ p {
 /*Media Query for tablet*/
 @media only screen and (max-width:768px) {
     #hero {
-        background-image: url(./img/hero-bg2.png);
         background-size: cover;
         background-position: top center;
         position: relative;
