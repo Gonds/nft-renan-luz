@@ -475,7 +475,7 @@ p {
     top: 19px;
     height: 98%;
     width: 98%;
-    border: 7px solid #F7CE3E7;
+    border: 7px solid black;
     z-index: -1;
 }
 /* End About section */
